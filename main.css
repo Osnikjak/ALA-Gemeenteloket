@@ -1,0 +1,93 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html { height: 100%; }
+body{
+    height:100%;
+    overflow-x:hidden;
+    background: #eeeeec url(../img/testwaves2.png) bottom;
+    background-repeat-y: no-repeat;
+    padding:0;
+    margin:0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:10pt;
+    color: black;
+}
+header #top {
+    width:100%;
+    margin: 5px 0;
+    background-color:#ffffff;
+}
+header{
+    background: #c8ff00;
+}
+nav {
+    background-color: #f6ffc0;
+    height: 40px;
+}
+nav ul {
+    list-style-type:none;
+    height: 40px;
+    margin-top:10px;
+}
+nav ul li {
+    float:left;
+    background-color: #ffffff;
+}
+nav ul li a {
+    margin: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    display:block;
+    color:#000000;
+    text-decoration:none;
+}
+nav ul li.active {
+    font-weight: bold;
+    background-color: #dbf0a0;
+}
+nav ul li:hover { background-color:#c8ff00; }
+nav ul li a:hover { color: #ffffff; }
+section#content {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #9BDA67;
+    box-shadow: 3px 3px 5px #555555;
+    border-radius: 3px;
+    width:60%;
+    min-height:10%;
+    color:black;
+    clear: both;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 5px 0;
+    width:100%;
+    text-align: center;
+    background-color: #d8e9f5;
+    border-top:solid 2px #5ca122;
+}
+.image:hover {
+    -webkit-transform: scale(3);
+       -moz-transform: scale(3);
+        -ms-transform: scale(3);
+            transform: scale(3);
+}
+#banner {
+    width: 100%;
+    border-top:solid 3px #bbff00;
+    margin-bottom:10px;
+}
+#picturetour {
+    width:150px;
+    height:105px;
+    padding-left:40px;
+    padding-top:30px;
+}
+.height {
+    width: 100%;
+    height: 40px;
+}
